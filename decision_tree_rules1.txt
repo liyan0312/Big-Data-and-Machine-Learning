@@ -1,0 +1,365 @@
+DecisionTreeClassificationModel: uid=DecisionTreeClassifier_e4c87b9750fa, depth=10, numNodes=243, numClasses=2, numFeatures=17
+  If (Customer_Age0 <= 54.5)
+   If (Months_on_book <= 2.5)
+    If (Avg_Open_To_Buy <= 1.2309999999999999)
+     If (Total_Amt_Chng_Q4_Q1 <= 1601.5)
+      If (Months_on_book <= 1.5)
+       Predict: 1.0
+      Else (Months_on_book > 1.5)
+       If (Dependent_count <= 43.5)
+        If (Avg_Open_To_Buy <= 0.5255000000000001)
+         Predict: 1.0
+        Else (Avg_Open_To_Buy > 0.5255000000000001)
+         If (Months_Inactive_12_mon <= 7063.0)
+          If (Gender <= 2.5)
+           If (Attrition_Flag <= 54.5)
+            Predict: 1.0
+           Else (Attrition_Flag > 54.5)
+            Predict: 0.0
+          Else (Gender > 2.5)
+           Predict: 0.0
+         Else (Months_Inactive_12_mon > 7063.0)
+          Predict: 0.0
+       Else (Dependent_count > 43.5)
+        Predict: 1.0
+     Else (Total_Amt_Chng_Q4_Q1 > 1601.5)
+      If (Total_Relationship_Count <= 1.5)
+       If (Customer_Age3 in {2.0})
+        Predict: 0.0
+       Else (Customer_Age3 not in {2.0})
+        Predict: 1.0
+      Else (Total_Relationship_Count > 1.5)
+       If (Total_Amt_Chng_Q4_Q1 <= 3280.5)
+        If (Avg_Open_To_Buy <= 0.8785000000000001)
+         If (Attrition_Flag <= 41.5)
+          If (Customer_Age3 in {1.0,2.0,4.0,5.0})
+           If (Gender <= 3.5)
+            Predict: 1.0
+           Else (Gender > 3.5)
+            Predict: 0.0
+          Else (Customer_Age3 not in {1.0,2.0,4.0,5.0})
+           Predict: 1.0
+         Else (Attrition_Flag > 41.5)
+          Predict: 1.0
+        Else (Avg_Open_To_Buy > 0.8785000000000001)
+         If (Dependent_count <= 41.5)
+          Predict: 1.0
+         Else (Dependent_count > 41.5)
+          Predict: 0.0
+       Else (Total_Amt_Chng_Q4_Q1 > 3280.5)
+        If (Total_Amt_Chng_Q4_Q1 <= 4257.0)
+         If (Months_on_book <= 1.5)
+          Predict: 0.0
+         Else (Months_on_book > 1.5)
+          Predict: 1.0
+        Else (Total_Amt_Chng_Q4_Q1 > 4257.0)
+         Predict: 1.0
+    Else (Avg_Open_To_Buy > 1.2309999999999999)
+     Predict: 0.0
+   Else (Months_on_book > 2.5)
+    If (Total_Amt_Chng_Q4_Q1 <= 2013.5)
+     If (Avg_Open_To_Buy <= 0.4235)
+      If (Months_Inactive_12_mon <= 2121.5)
+       Predict: 1.0
+      Else (Months_Inactive_12_mon > 2121.5)
+       If (Attrition_Flag <= 52.5)
+        If (Credit_Limit <= 2313.5)
+         If (Months_on_book <= 4.5)
+          Predict: 1.0
+         Else (Months_on_book > 4.5)
+          Predict: 0.0
+        Else (Credit_Limit > 2313.5)
+         If (Customer_Age3 in {1.0,3.0})
+          If (Dependent_count <= 33.5)
+           Predict: 1.0
+          Else (Dependent_count > 33.5)
+           Predict: 0.0
+         Else (Customer_Age3 not in {1.0,3.0})
+          Predict: 1.0
+       Else (Attrition_Flag > 52.5)
+        If (Customer_Age2 in {0.0})
+         Predict: 0.0
+        Else (Customer_Age2 not in {0.0})
+         If (Total_Amt_Chng_Q4_Q1 <= 1601.5)
+          Predict: 0.0
+         Else (Total_Amt_Chng_Q4_Q1 > 1601.5)
+          Predict: 1.0
+     Else (Avg_Open_To_Buy > 0.4235)
+      If (Total_Amt_Chng_Q4_Q1 <= 1187.5)
+       If (Customer_Age0 <= 25.5)
+        If (Gender <= 2.5)
+         If (Customer_Age5 in {0.0,1.0,3.0,4.0})
+          If (Months_on_book <= 5.5)
+           If (Avg_Open_To_Buy <= 0.7915000000000001)
+            Predict: 0.0
+           Else (Avg_Open_To_Buy > 0.7915000000000001)
+            Predict: 1.0
+          Else (Months_on_book > 5.5)
+           Predict: 0.0
+         Else (Customer_Age5 not in {0.0,1.0,3.0,4.0})
+          Predict: 1.0
+        Else (Gender > 2.5)
+         If (Customer_Age1 in {0.0,1.0,4.0})
+          Predict: 0.0
+         Else (Customer_Age1 not in {0.0,1.0,4.0})
+          If (Avg_Open_To_Buy <= 0.6605000000000001)
+           Predict: 0.0
+          Else (Avg_Open_To_Buy > 0.6605000000000001)
+           If (Avg_Open_To_Buy <= 0.9015)
+            Predict: 1.0
+           Else (Avg_Open_To_Buy > 0.9015)
+            Predict: 0.0
+       Else (Customer_Age0 > 25.5)
+        If (Customer_Age3 in {0.0,1.0,2.0,3.0,5.0})
+         If (Total_Relationship_Count <= 3.5)
+          Predict: 0.0
+         Else (Total_Relationship_Count > 3.5)
+          Predict: 1.0
+        Else (Customer_Age3 not in {0.0,1.0,2.0,3.0,5.0})
+         Predict: 1.0
+      Else (Total_Amt_Chng_Q4_Q1 > 1187.5)
+       If (Avg_Open_To_Buy <= 0.6465000000000001)
+        If (Total_Amt_Chng_Q4_Q1 <= 1739.5)
+         If (Total_Relationship_Count <= 3.5)
+          Predict: 0.0
+         Else (Total_Relationship_Count > 3.5)
+          If (Months_on_book <= 3.5)
+           If (Avg_Open_To_Buy <= 0.4875)
+            Predict: 1.0
+           Else (Avg_Open_To_Buy > 0.4875)
+            Predict: 0.0
+          Else (Months_on_book > 3.5)
+           Predict: 0.0
+        Else (Total_Amt_Chng_Q4_Q1 > 1739.5)
+         If (Attrition_Flag <= 39.5)
+          Predict: 0.0
+         Else (Attrition_Flag > 39.5)
+          If (Attrition_Flag <= 48.5)
+           If (Credit_Limit <= 1139.5)
+            Predict: 0.0
+           Else (Credit_Limit > 1139.5)
+            Predict: 1.0
+          Else (Attrition_Flag > 48.5)
+           If (Customer_Age2 in {0.0,2.0,3.0})
+            Predict: 0.0
+           Else (Customer_Age2 not in {0.0,2.0,3.0})
+            Predict: 1.0
+       Else (Avg_Open_To_Buy > 0.6465000000000001)
+        If (Customer_Age2 in {0.0,2.0})
+         Predict: 0.0
+        Else (Customer_Age2 not in {0.0,2.0})
+         If (Attrition_Flag <= 35.5)
+          Predict: 1.0
+         Else (Attrition_Flag > 35.5)
+          Predict: 0.0
+    Else (Total_Amt_Chng_Q4_Q1 > 2013.5)
+     If (Avg_Open_To_Buy <= 1.0554999999999999)
+      If (Customer_Age0 <= 47.5)
+       If (Attrition_Flag <= 30.5)
+        If (Customer_Age1 in {0.0,2.0,4.0,5.0})
+         Predict: 0.0
+        Else (Customer_Age1 not in {0.0,2.0,4.0,5.0})
+         If (Customer_Age <= 0.5)
+          Predict: 0.0
+         Else (Customer_Age > 0.5)
+          Predict: 1.0
+       Else (Attrition_Flag > 30.5)
+        If (Total_Relationship_Count <= 1.5)
+         If (Total_Relationship_Count <= 0.5)
+          Predict: 1.0
+         Else (Total_Relationship_Count > 0.5)
+          If (Total_Amt_Chng_Q4_Q1 <= 2314.5)
+           Predict: 0.0
+          Else (Total_Amt_Chng_Q4_Q1 > 2314.5)
+           If (Customer_Age3 in {2.0,3.0,4.0})
+            Predict: 0.0
+           Else (Customer_Age3 not in {2.0,3.0,4.0})
+            Predict: 1.0
+        Else (Total_Relationship_Count > 1.5)
+         If (Customer_Age <= 0.5)
+          If (Avg_Open_To_Buy <= 0.9275)
+           Predict: 1.0
+          Else (Avg_Open_To_Buy > 0.9275)
+           If (Months_Inactive_12_mon <= 1936.5)
+            Predict: 1.0
+           Else (Months_Inactive_12_mon > 1936.5)
+            Predict: 0.0
+         Else (Customer_Age > 0.5)
+          If (Total_Amt_Chng_Q4_Q1 <= 2164.5)
+           If (Avg_Open_To_Buy <= 0.6995)
+            Predict: 1.0
+           Else (Avg_Open_To_Buy > 0.6995)
+            Predict: 0.0
+          Else (Total_Amt_Chng_Q4_Q1 > 2164.5)
+           Predict: 1.0
+      Else (Customer_Age0 > 47.5)
+       If (Attrition_Flag <= 40.5)
+        If (Gender <= 3.5)
+         Predict: 0.0
+        Else (Gender > 3.5)
+         If (Customer_Age1 in {0.0,4.0,6.0})
+          Predict: 0.0
+         Else (Customer_Age1 not in {0.0,4.0,6.0})
+          Predict: 1.0
+       Else (Attrition_Flag > 40.5)
+        If (Total_Amt_Chng_Q4_Q1 <= 2905.5)
+         If (Total_Amt_Chng_Q4_Q1 <= 2164.5)
+          If (Avg_Open_To_Buy <= 0.5545)
+           Predict: 1.0
+          Else (Avg_Open_To_Buy > 0.5545)
+           If (Attrition_Flag <= 48.5)
+            Predict: 1.0
+           Else (Attrition_Flag > 48.5)
+            Predict: 0.0
+         Else (Total_Amt_Chng_Q4_Q1 > 2164.5)
+          If (Customer_Age <= 0.5)
+           If (Avg_Open_To_Buy <= 0.7355)
+            Predict: 1.0
+           Else (Avg_Open_To_Buy > 0.7355)
+            Predict: 0.0
+          Else (Customer_Age > 0.5)
+           Predict: 1.0
+        Else (Total_Amt_Chng_Q4_Q1 > 2905.5)
+         If (Total_Amt_Chng_Q4_Q1 <= 4538.5)
+          If (Total_Amt_Chng_Q4_Q1 <= 3280.5)
+           If (Avg_Open_To_Buy <= 0.7635000000000001)
+            Predict: 0.0
+           Else (Avg_Open_To_Buy > 0.7635000000000001)
+            Predict: 1.0
+          Else (Total_Amt_Chng_Q4_Q1 > 3280.5)
+           Predict: 0.0
+         Else (Total_Amt_Chng_Q4_Q1 > 4538.5)
+          Predict: 1.0
+     Else (Avg_Open_To_Buy > 1.0554999999999999)
+      If (Customer_Age0 <= 33.5)
+       If (Gender <= 2.5)
+        Predict: 0.0
+       Else (Gender > 2.5)
+        Predict: 1.0
+      Else (Customer_Age0 > 33.5)
+       If (Total_Amt_Chng_Q4_Q1 <= 2628.5)
+        Predict: 0.0
+       Else (Total_Amt_Chng_Q4_Q1 > 2628.5)
+        If (Customer_Age1 in {1.0,2.0,3.0,4.0,5.0,6.0})
+         Predict: 0.0
+        Else (Customer_Age1 not in {1.0,2.0,3.0,4.0,5.0,6.0})
+         If (Attrition_Flag <= 37.5)
+          Predict: 0.0
+         Else (Attrition_Flag > 37.5)
+          Predict: 1.0
+  Else (Customer_Age0 > 54.5)
+   If (Total_Amt_Chng_Q4_Q1 <= 5272.5)
+    If (Customer_Age0 <= 60.5)
+     If (Months_on_book <= 2.5)
+      If (Customer_Age1 in {0.0,2.0,3.0,4.0,5.0,6.0})
+       If (Total_Amt_Chng_Q4_Q1 <= 3280.5)
+        Predict: 1.0
+       Else (Total_Amt_Chng_Q4_Q1 > 3280.5)
+        If (Customer_Age3 in {0.0,4.0,5.0})
+         Predict: 0.0
+        Else (Customer_Age3 not in {0.0,4.0,5.0})
+         Predict: 1.0
+      Else (Customer_Age1 not in {0.0,2.0,3.0,4.0,5.0,6.0})
+       Predict: 1.0
+     Else (Months_on_book > 2.5)
+      If (Total_Amt_Chng_Q4_Q1 <= 4454.5)
+       If (Months_Inactive_12_mon <= 2429.5)
+        If (Credit_Limit <= 1355.5)
+         Predict: 0.0
+        Else (Credit_Limit > 1355.5)
+         If (Total_Amt_Chng_Q4_Q1 <= 2905.5)
+          If (Months_on_book <= 5.5)
+           If (Credit_Limit <= 1438.65)
+            Predict: 0.0
+           Else (Credit_Limit > 1438.65)
+            Predict: 1.0
+          Else (Months_on_book > 5.5)
+           Predict: 0.0
+         Else (Total_Amt_Chng_Q4_Q1 > 2905.5)
+          Predict: 0.0
+       Else (Months_Inactive_12_mon > 2429.5)
+        Predict: 0.0
+      Else (Total_Amt_Chng_Q4_Q1 > 4454.5)
+       If (Avg_Open_To_Buy <= 0.9275)
+        Predict: 0.0
+       Else (Avg_Open_To_Buy > 0.9275)
+        If (Total_Amt_Chng_Q4_Q1 <= 4640.5)
+         Predict: 0.0
+        Else (Total_Amt_Chng_Q4_Q1 > 4640.5)
+         Predict: 1.0
+    Else (Customer_Age0 > 60.5)
+     If (Total_Amt_Chng_Q4_Q1 <= 2164.5)
+      Predict: 0.0
+     Else (Total_Amt_Chng_Q4_Q1 > 2164.5)
+      If (Customer_Age0 <= 63.5)
+       If (Months_Inactive_12_mon <= 1731.5)
+        If (Credit_Limit <= 1587.5)
+         Predict: 0.0
+        Else (Credit_Limit > 1587.5)
+         Predict: 1.0
+       Else (Months_Inactive_12_mon > 1731.5)
+        Predict: 0.0
+      Else (Customer_Age0 > 63.5)
+       Predict: 0.0
+   Else (Total_Amt_Chng_Q4_Q1 > 5272.5)
+    If (Customer_Age0 <= 78.5)
+     If (Credit_Limit <= 1355.5)
+      Predict: 0.0
+     Else (Credit_Limit > 1355.5)
+      If (Avg_Open_To_Buy <= 0.7915000000000001)
+       If (Customer_Age0 <= 70.5)
+        If (Months_Inactive_12_mon <= 19881.0)
+         Predict: 1.0
+        Else (Months_Inactive_12_mon > 19881.0)
+         If (Credit_Limit <= 22707.5)
+          Predict: 0.0
+         Else (Credit_Limit > 22707.5)
+          Predict: 1.0
+       Else (Customer_Age0 > 70.5)
+        If (Avg_Open_To_Buy <= 0.5974999999999999)
+         Predict: 1.0
+        Else (Avg_Open_To_Buy > 0.5974999999999999)
+         Predict: 0.0
+      Else (Avg_Open_To_Buy > 0.7915000000000001)
+       If (Avg_Open_To_Buy <= 0.9015)
+        If (Customer_Age0 <= 73.5)
+         If (Credit_Limit <= 3084.0)
+          Predict: 0.0
+         Else (Credit_Limit > 3084.0)
+          Predict: 1.0
+        Else (Customer_Age0 > 73.5)
+         If (Customer_Age6 in {1.0})
+          Predict: 0.0
+         Else (Customer_Age6 not in {1.0})
+          Predict: 1.0
+       Else (Avg_Open_To_Buy > 0.9015)
+        Predict: 1.0
+    Else (Customer_Age0 > 78.5)
+     If (Customer_Age0 <= 88.5)
+      If (Avg_Open_To_Buy <= 0.9015)
+       If (Total_Amt_Chng_Q4_Q1 <= 8423.5)
+        If (Total_Relationship_Count <= 3.5)
+         Predict: 0.0
+        Else (Total_Relationship_Count > 3.5)
+         If (Dependent_count <= 39.5)
+          Predict: 0.0
+         Else (Dependent_count > 39.5)
+          Predict: 1.0
+       Else (Total_Amt_Chng_Q4_Q1 > 8423.5)
+        If (Avg_Open_To_Buy <= 0.7915000000000001)
+         Predict: 0.0
+        Else (Avg_Open_To_Buy > 0.7915000000000001)
+         If (Customer_Age0 <= 86.5)
+          Predict: 1.0
+         Else (Customer_Age0 > 86.5)
+          Predict: 0.0
+      Else (Avg_Open_To_Buy > 0.9015)
+       If (Total_Amt_Chng_Q4_Q1 <= 7651.0)
+        Predict: 0.0
+       Else (Total_Amt_Chng_Q4_Q1 > 7651.0)
+        If (Total_Relationship_Count <= 2.5)
+         Predict: 0.0
+        Else (Total_Relationship_Count > 2.5)
+         Predict: 1.0
+     Else (Customer_Age0 > 88.5)
+      Predict: 0.0
